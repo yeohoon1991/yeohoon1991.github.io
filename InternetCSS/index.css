@@ -8,24 +8,24 @@
 .banner li { background-color:pink; border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
 .banner li:hover { background-color:yellow; }
 .banner li img { width:30%; vertical-align:middle; }
- .menu li { background-color:LightGreen; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+ .menu li { background-color:LightBlue; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
  .menu li:hover { background-color:yellow; }
- .banner li { background-color:LightGreen; border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+ .banner li { background-color:LightBlue; border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
 +.banner li:hover { background-color:yellow; }
  .banner li img { width:30%; vertical-align:middle; }
 a:link{
-color:blue;background-color:transparent;text-decoration:none;}
+color:black;background-color:transparent;text-decoration:none;}
 section a:link{
-color:blue;background-color:transparent;text-decoration:none;}
+color:black;background-color:transparent;text-decoration:none;}
 div a:link{
-color:blue;background-color:transparent;text-decoration:none;}
+color:black;background-color:transparent;text-decoration:none;}
 
 a:visited{
-color:pink;background-color:transparent;text-decoration:none;}
+color:blue;background-color:transparent;text-decoration:none;}
 section a:visited{
-color:pink;background-color:transparent;text-decoration:none;}
+color:blue;background-color:transparent;text-decoration:none;}
 div a:visited{
-color:pink;background-color:transparent;text-decoration:none;}
+color:blue;background-color:transparent;text-decoration:none;}
 
 a:hover{
 color:red;background-color:transparent;text-decoration:underline;}
