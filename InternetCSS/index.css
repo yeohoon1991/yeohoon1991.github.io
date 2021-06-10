@@ -1,16 +1,16 @@
 * { box-sizing:border-box; padding:0; margin:0; }
 .row::after { content:""; clear:both; display:table; }
 [class*="col-"] { float:left; padding:10px; }
-.header, .footer { background-color:Yellow Green; color:light blue; padding:10px; }
+.header, .footer { background-color:lightgray; color:lightblue; padding:10px; }
 .menu ul, .banner ul { list-style-type:none; }
-.menu li { background-color:sky blue; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+.menu li { background-color:LightGreen; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
 .menu li:hover { background-color:yellow; }
-.banner li { background-color:sky blue; border:2px dotted black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+.banner li { background-color::LightGreen; border:2px dotted black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
 .banner li:hover { background-color:yellow; }
 .banner li img { width:30%; vertical-align:middle; }
  .menu li { background-color:pink; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
  .menu li:hover { background-color:yellow; }
- .banner li { background-color:sky blue; border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+ .banner li { background-color::LightGreen; border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
 +.banner li:hover { background-color:yellow; }
  .banner li img { width:30%; vertical-align:middle; }
 a:link{
@@ -21,11 +21,11 @@ div a:link{
 color:blue;background-color:transparent;text-decoration:none;}
 
 a:visited{
-color:pink;background-color:transparent;text-decoration:none;}
+color:white;background-color:transparent;text-decoration:none;}
 section a:visited{
-color:pink;background-color:transparent;text-decoration:none;}
+color:white;background-color:transparent;text-decoration:none;}
 div a:visited{
-color:pink;background-color:transparent;text-decoration:none;}
+color:white;background-color:transparent;text-decoration:none;}
 
 a:hover{
 color:red;background-color:transparent;text-decoration:underline;}
