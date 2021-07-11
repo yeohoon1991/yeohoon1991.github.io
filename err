@@ -1,0 +1,10 @@
+1 echo 'export PATH=/opt/gcc-10.1.0/bin:$PATH' >> ~/.bashrc
+ 2 echo 'export LD_LIBRARY_PATH=/opt/gcc-10.1.0/lib:$LD_LIBRARY_PATH' >> ~/.bashrc
+ 3 . ~/.bashrc
+ 4 sudo ln -s /usr/include/arm-linux-gnueabihf/sys /usr/include/sys
+ 5 sudo ln -s /usr/include/arm-linux-gnueabihf/bits /usr/include/bits
+ 6 sudo ln -s /usr/include/arm-linux-gnueabihf/gnu /usr/include/gnu
+ 7 sudo ln -s /usr/include/arm-linux-gnueabihf/asm /usr/include/asm
+ 8 sudo ln -s /usr/lib/arm-linux-gnueabihf/crti.o /usr/lib/crti.o
+ 9 sudo ln -s /usr/lib/arm-linux-gnueabihf/crt1.o /usr/lib/crt1.o
+10 sudo ln -s /usr/lib/arm-linux-gnueabihf/crtn.o /usr/lib/crtn.o
