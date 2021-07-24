@@ -22,4 +22,12 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=erroring&log
 -D WITH_FFMPEG=ON \
 -D WITH_XINE=ON \
 -D BUILD_NEW_PYTHON_SUPPORT=ON \
+-D PYTHON2_INCLUDE_DIR=/usr/include/python2.7 \
+-D PYTHON2_NUMPY_INCLUDE_DIRS=/usr/lib/python2.7/dist-packages/numpy/core/include/ \
+-D PYTHON2_PACKAGES_PATH=/usr/lib/python2.7/dist-packages \
+-D PYTHON2_LIBRARY= /usr/lib/arm-linux-gnueabihf/libpython2.7.so \
+-D PYTHON3_INCLUDE_DIR=/usr/include/python3.5m \
+-D PYTHON3_NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include/ \
+-D PYTHON3_PACKAGES_PATH=/usr/lib/python3.5/dist-packages \
+-D PYTHON3_LIBRARY=/usr/lib/arm-linux-gnueabihf/libpython3.5m.so \
 ../
